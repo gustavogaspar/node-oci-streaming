@@ -1,0 +1,20 @@
+{
+  "name": "streaming",
+  "version": "1.0.0",
+  "description": "Using OCI client to send messages to streaming service",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js",
+    "start": "node index.js"
+  },
+  "author": "gustavo.alves@oracle.com",
+  "license": "MIT",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "fs": "0.0.1-security",
+    "oci-common": "^1.6.0",
+    "oci-sdk": "^1.6.0",
+    "oci-streaming": "^1.6.0",
+    "opossum": "^5.0.2"
+  }
+}
