@@ -11,7 +11,7 @@ const provider = new common.ConfigFileAuthenticationDetailsProvider(
 );
 
 
-const compartmentId = "ocid1.compartment.oc1..aaaaaaaaibjn7uy24pzpt3hqvq4owmzsq3ozllxcho5vjujlq3e52u6ojtuq"
+const compartmentId = "<COMPARTMENT OCID>"
 const adminClient = new st.StreamAdminClient({ authenticationDetailsProvider: provider });
 const client = new st.StreamClient({ authenticationDetailsProvider: provider });
 
