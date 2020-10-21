@@ -1,7 +1,7 @@
 # node-oci-streaming
 This is an example on how to use the Oracle Cloud Infraestructure SDK to send messages to OCI's streaming platform
 
-# To use:
+#### To use:
 
 1. Clone the repository to your local machine
 2. Execute _npm install_ on the folder
